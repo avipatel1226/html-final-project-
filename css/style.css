@@ -1,0 +1,65 @@
+body {
+    background: #e2b889;  
+    font-family: "Courier New", monospace; 
+    margin: 0;
+    padding: 0;
+    color: #222;
+    text-align: left; 
+}
+
+header {
+    background: #2a4d1b;
+    padding: 15px;
+    color: white;
+    border-bottom: 4px solid #1b330f;
+}
+.gameboy-img {
+    float: left;
+    width: 250px;          
+    margin-right: 20px;    
+    margin-bottom: 10px;
+}
+.tetris-img {
+    float: left;
+    width: 250px;          
+    margin-right: 20px;    
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+}
+
+button {
+    background: #2a4d1b;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3a6a27;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 1px solid #666;
+}
+
+h1,h2 {
+    // used retro style fonts to make it look like old computer website
+    font-family: "Courier New", monospace;
+    letter-spacing: 1px;
+}
